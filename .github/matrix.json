@@ -1,28 +1,28 @@
 {
     "config": [
         {
-            "name": "Linux GCC 11",
+            "name": "Linux GCC 11 C++17",
             "compiler": "gcc",
             "version": "11",
             "os": "ubuntu-22.04",
             "cxxstd" : "17"
         },
         {
-            "name": "Linux GCC 11",
+            "name": "Linux GCC 11 C++20",
             "compiler": "gcc",
             "version": "11",
             "os": "ubuntu-22.04",
             "cxxstd" : "20"
         },
         {
-            "name": "Linux Clang 14",
+            "name": "Linux Clang 14 C++17",
             "compiler": "clang",
             "version": "14",
             "os": "ubuntu-22.04",
             "cxxstd" : "17"
         },
         {
-            "name": "Linux Clang 14",
+            "name": "Linux Clang 14 C++20",
             "compiler": "clang",
             "version": "14",
             "os": "ubuntu-22.04",
