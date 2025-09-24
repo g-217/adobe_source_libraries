@@ -28,6 +28,7 @@ endif()
     target_compile_options (asl PUBLIC "/Zc:__cplusplus")
     target_compile_options (asl PRIVATE "/W4")
     target_compile_options (asl PRIVATE "/WX")
+    target_compile_options (asl PRIVATE "/Zc:preprocessor")
 endif()
 
 target_link_boost(asl)
